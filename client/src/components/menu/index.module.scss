@@ -1,0 +1,24 @@
+.Menu {
+    width: 211px;
+    border-right: 1px solid #D8D8D8;
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-top: 140px;
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: #525252;
+                display: block;
+                padding: 12px 0 12px 50px;
+                font-weight: 400;
+                font-size: 22px;
+                &.active {
+                    color: #EA5959;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
